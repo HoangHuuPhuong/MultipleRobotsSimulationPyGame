@@ -138,7 +138,7 @@ class cl_simu_mr(object):
         [r1,  r2, r3, r4] = [[50, 95],[50,135], [750, 100], [750, 130]]
         payload = [50,115]
         font = pygame.font.SysFont("Times New Roman, Arial", 20)
-        text = font.render("Multiple Robot Simulation - UNIST", True, self.color[7])
+        text = font.render("Multiple Robot Simulation - For Fun", True, self.color[7])
         turtle_img = pygame.image.load('turtlebot.jpeg')
         turtle_img = pygame.transform.scale(turtle_img, (100, 60))
         stuff1_img = pygame.image.load('stuff1.jpeg')
